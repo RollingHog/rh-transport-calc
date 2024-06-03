@@ -1,0 +1,22 @@
+{
+  "name": "RollingHog Transport Calc",
+  "short_name": "RH Transport Calc",
+  "id": "/rh-transport-calc/",
+  "description": "Voice notepad via Google API PWA",
+ 
+  "scope":     "/rh-transport-calc/",
+  "start_url": "/rh-transport-calc/",
+ 
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+ 
+  "display": "fullscreen", 
+ 
+  "icons": [
+      {
+        "src": "/rh-transport-calc/fav144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }
+  ]
+}

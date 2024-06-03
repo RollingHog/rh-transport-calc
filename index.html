@@ -1,0 +1,85 @@
+<HTML>
+  <HEAD>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <TITLE>Transport Calculator</TITLE>
+  </HEAD>
+  <script>
+  </script>
+  
+  <style>
+    body {
+      overscroll-behavior-y: contain;
+    }
+/* 
+    textarea#text_input {
+      width:60%;
+      height: 50%;
+      font-size: inherit;
+    }
+
+    #main_buttons_wrapper {
+      width: 60%;
+    }
+
+    button#b_clear {
+      float: right;
+    }
+
+    button#b_dummy {
+      display: none;
+    }
+
+    div#sideblock_wrapper {
+      display: inline-block;
+      width: 30%; 
+      vertical-align: top; 
+    }
+
+    #commands_list_wrapper {
+      width: 30%;
+    } */
+
+    button.btn_add {
+      padding: 40px 8px;
+      margin: 6px;
+      width: 45%;
+    }
+
+    #version_el_wrapper {
+      position: absolute; 
+      right: 16px;
+      bottom: 16px;
+    }
+
+    /* @media screen and (max-width: 600px) {
+      body, button {
+        font-size: x-large;
+        text-align: center;
+      } */
+
+    #version_el_wrapper {
+      /* position: static; */
+      /* float: right;  */
+    }
+  </style>
+  
+  <body style="overflow:auto">
+
+    <div id="main" style="text-align: center;">
+      <h3>Транспортный калькулятор</h3>
+      <button class="btn_add">49</button>
+      <button class="btn_add">52</button>
+      <button class="btn_add">54</button>
+      <button class="btn_add">56</button>
+    </div>
+    
+    <div id=version_el_wrapper>
+      <div>Version <span id="version_el">_._._</span></div>
+      <a href="https://github.com/RollingHog/rh-transport-calc">https://github.com/RollingHog/rh-transport-calc</a>
+    </div> 
+  </body>
+  
+  <script src="index.js"></script>
+</HTML>
