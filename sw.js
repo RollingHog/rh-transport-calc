@@ -6,7 +6,7 @@ const APP_PREFIX = 'rh_trcalc'
 // The version of the cache. Every time you change any of the files
 // you need to change this version.
 // eslint-disable-next-line no-unused-vars
-const VERSION = '0.0.1'
+const VERSION = '0.0.2'
 
 // The files to make available for offline use
 // eslint-disable-next-line no-unused-vars
